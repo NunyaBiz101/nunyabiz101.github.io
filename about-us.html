@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Fresh Returns Farm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+</head>
+<body>
+    <header>
+        <button class="toggle-btn" onclick="toggleSidebar()">☰ </button>
+        <nav class="sidebar" onmouseleave="hideSidebar()">        
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61558483922095" target="_blank" title="Facebook"><img src="facebook.png" alt="Facebook"></a>
+                <a href="mailto:freshreturnsfarm@gmail.com" target="_blank" title="Email"><img src="email.png" alt="Email"></a>
+                <a href="https://instagram.com/" target="_blank" title="Instagram"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+        </nav>
+    
+        <div class="logo">
+            <img src="favicon.png" alt="Fresh Returns Farm Logo">
+        </div>
+        <h1>Fresh Returns Farm</h1>
+    
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search..." oninput="performSearch()">
+            <button id="searchBtn" onclick="toggleSearch()">🔍</button>
+        </div>
+    </header>
+
+    <main>
+
+        <img src="banner.gif" alt="About Us Banner">
+
+        <section class="about-us">
+            <h2>About Us</h2>
+    
+            <p>Welcome to Fresh Returns Farm </p>
+
+            <p>At Fresh Returns Farm, we are passionate about providing the highest quality agricultural products to farmers and gardening enthusiasts. With a commitment to sustainability and innovation, our online platform offers a wide range of seeds, tools, and resources to help you cultivate success.</p> 
+    
+            <p> Mission: Empowering Growth</p>
+    
+            <p>Our mission is to empower farmers with the tools and knowledge they need to boost yields and foster sustainable agricultural practices. From tried-and-true essentials to cutting-edge solutions, we curate a selection that aligns with your agricultural goals.</p>
+    
+            <p>Why Choose Fresh Returns Farm?</p>
+    
+            <p>Premium Quality: We source and deliver only the finest seeds and tools to ensure your crops thrive.</p>
+    
+            <p>Expert Guidance: Our team is dedicated to providing expert advice and support, helping you make informed decisions for your farm or garden.</p>
+    
+            <p>Sustainable Practices: We believe in promoting eco-friendly and sustainable farming methods for a healthier planet.</p>
+    
+            <p>Join us on this journey as we cultivate a greener, more bountiful future together. Explore our collection and grow with confidence at Fresh Returns Farm.</p>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

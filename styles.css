@@ -1,0 +1,263 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #5bd899;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #1ebb72;
+}
+
+.logo img {
+    width: 50px; 
+    margin-right: 20px;
+}
+
+h1 span {
+    margin-right: 20px;
+}
+
+
+
+.search-container {
+    font-family: 'poppins, sans-serif';
+    font-size: 18px;
+    position: relative;
+    width: 200px;
+    margin-left: auto;
+}
+
+
+#searchInput {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+#searchBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.toggle-btn {
+    background-color: #5bd899;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #5bd899;
+    padding-top: 20px;
+    transition: left 0.3s ease-in-out;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h1 span {
+    margin-right: 20px;
+}
+
+
+
+.search-container {
+    font-family: 'poppins, sans-serif';
+    font-size: 18px;
+    position: relative;
+    width: 200px;
+    margin-left: auto;
+}
+
+
+#searchInput {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+#searchBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.toggle-btn {
+    background-color: #5bd899;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #5bd899;
+    padding-top: 20px;
+    transition: left 0.3s ease-in-out;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #1ebb72;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+}
+
+main {
+    padding: 5px;
+}
+
+main img {
+    width: 100%;
+    height: 20vh; 
+    object-fit: cover; 
+    margin-bottom: 20px;
+}
+.farming-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: #cbf0dd;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+button {
+    background-color: #1ebb72;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-item p {
+    margin: 0;
+}
+
+.total-amount {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
